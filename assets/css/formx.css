@@ -1,0 +1,190 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+body{
+  background: #2e3842;
+}
+
+body > div.formx{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1ab188;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+a:hover {
+  color: #179b77;
+}
+
+.formx {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+
+.formx > h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.formx > label {
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  left: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  #font-size: 22px;
+}
+.formx > label.msg{
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.formx > label.msg-danger {
+  color: #d9534f;
+}
+.formx > label.msg-success {
+  color: #5cb85c;
+}
+
+.formx > label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+
+.formx > label.active {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+.formx > label.active .req {
+  opacity: 0;
+}
+
+.formx > label.highlight {
+  color: #ffffff;
+}
+
+.formx > form > .field-wrap {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.formx > form > .field-wrap > input, textarea, select {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+.formx > form > .field-wrap > input:focus, textarea:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+.formx > form > .field-wrap > textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+
+.formx > form > .field-wrap > .button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  height: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.formx > form > .field-wrap > .button-block {
+  display: block;
+  width: 100%;
+}
+
+.formx > form > .button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5em;
+  height: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+
+.formx > form > .button-block {
+  display: block;
+  width: 100%;
+}
+.formx > form > .button-danger{
+  text-align: center;
+  background-color: #d9534f;
+  color: #ffffff;
+}
+
+.formx > form > .button-danger:hover{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.formx > form > p.forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+.formx > form > p.forgot > a {
+  text-decoration: none;
+  color: #1ab188;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.formx > form > p.forgot > a:hover {
+  color: #179b77;
+}

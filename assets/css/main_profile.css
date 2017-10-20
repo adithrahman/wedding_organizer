@@ -1,0 +1,217 @@
+/* Space out content a bit */
+body > .container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #555;
+    font-weight: 800;
+    letter-spacing: 0.225em;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+input, select, textarea {
+    color: #555;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+    line-height: 1.65em;
+}
+textarea{
+  min-height: 4em;
+}
+#wo-msg > textarea{
+  width: 100%;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@media (max-width: 768px){
+  .pay-img{
+    display: none;
+  }
+}
+
+.chat-box{
+  width: 100%;
+  padding: 0 0.5em;
+}
+
+@media (min-width: 768px){
+  .chat-box{
+    width: 100%;
+  }
+}
+
+.msg-box{
+  display: block;
+  width: 100%;
+  height: 250px;
+  margin-top:10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+
+   overflow:auto;
+}
+.msg{
+  margin-top: 5px;
+}
+.msg-user{
+  font-weight: bold;
+}
+
+
+
+.pbanner{
+  width: 100%;
+  height: 100%;
+}
+
+table tbody tr {
+  border: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+table > tbody > tr > th,td>b{
+  color: #555;
+}
+
+.photo {
+    padding: 5px;
+    background: #FFF;
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+}
+
+/* Custom page header */
+.header {
+  color: #000;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow {
+  padding-top: 15px;
+}
+.container-narrow > button{
+  margin: 10px 0px 10px 0px;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  color: #000;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+  .container {
+    top:50px;
+    position: relative;
+    max-width: 550px;
+  }
+  #wo-msg > textarea{
+    width: 100%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    top:50px;
+    position: relative;
+    max-width: 730px;
+  }
+  #wo-msg > textarea{
+    width: 100%;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  .container {
+    top:100px;
+    position: relative;
+    max-width: 900px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    background-color: #fff;
+    border-bottom: 0;
+  }
+  #wo-msg > textarea{
+    width: 100%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    top:100px;
+    position: relative;
+    max-width: 1000px;
+  }
+  #wo-msg > textarea{
+    width: 100%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .container {
+    top:100px;
+    position: relative;
+    min-width: 1200px;
+  }
+  #wo-msg > textarea{
+    width: 100%;
+  }
+}
